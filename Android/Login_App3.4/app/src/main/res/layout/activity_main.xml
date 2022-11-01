@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="35dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <Button
+        android:id="@+id/btn_Attend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="출석 확인하기"
+        android:layout_margin="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_id"
+        app:layout_constraintStart_toStartOf="@+id/tv_id"
+        app:layout_constraintTop_toBottomOf="@+id/tv_id"
+        />
+
+    <Button
+        android:id="@+id/btn_upload1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:text="이미지 업로드"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Attend"
+        app:layout_constraintStart_toStartOf="@+id/btn_Attend"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Attend"/>
+
+    <Button
+        android:id="@+id/btn_Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:text="회원 탈퇴하기"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/btn_upload1"
+        app:layout_constraintStart_toStartOf="@+id/btn_upload1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_upload1"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
