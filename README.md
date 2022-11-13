@@ -56,6 +56,7 @@ PC의 출석 프로그램에서는 실시간으로 스레드 실행하여 웹 �
 <img src= https://user-images.githubusercontent.com/57284689/199153323-5c91110f-c26d-4e9a-a677-b9ed76abf458.png width = 500 height = 200>
 </div>
 <h2>12.논문</h2>
+https://drive.google.com/file/d/1Voec9O40PUMgsbfx3a9G3YhzWSntIbAg/view?usp=share_link
 <h2> * 참고 자료 </h2>
 
 [1] Joseph Redmon, “You Only Look Once: Unified,Real-Ti
